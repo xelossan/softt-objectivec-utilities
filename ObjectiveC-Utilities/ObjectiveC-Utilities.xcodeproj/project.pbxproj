@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A73418146FA4BC000F073C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A73417146FA4BC000F073C /* Foundation.framework */; };
+		48A7342A146FA65E000F073C /* NSObject+Reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A73428146FA65E000F073C /* NSObject+Reflection.h */; };
+		48A7342B146FA65E000F073C /* NSObject+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A73429146FA65E000F073C /* NSObject+Reflection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48A73414146FA4BC000F073C /* libObjectiveC-Utilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjectiveC-Utilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A73417146FA4BC000F073C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48A7341B146FA4BC000F073C /* ObjectiveC-Utilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveC-Utilities-Prefix.pch"; sourceTree = "<group>"; };
+		48A73428146FA65E000F073C /* NSObject+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Reflection.h"; sourceTree = "<group>"; };
+		48A73429146FA65E000F073C /* NSObject+Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Reflection.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A73411146FA4BC000F073C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A73418146FA4BC000F073C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A73409146FA4BC000F073C = {
+			isa = PBXGroup;
+			children = (
+				48A73419146FA4BC000F073C /* Classes */,
+				48A73416146FA4BC000F073C /* Frameworks */,
+				48A73415146FA4BC000F073C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48A73415146FA4BC000F073C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A73414146FA4BC000F073C /* libObjectiveC-Utilities.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A73416146FA4BC000F073C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A73417146FA4BC000F073C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48A73419146FA4BC000F073C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48A73428146FA65E000F073C /* NSObject+Reflection.h */,
+				48A73429146FA65E000F073C /* NSObject+Reflection.m */,
+				48A7341A146FA4BC000F073C /* Supporting Files */,
+			);
+			name = Classes;
+			path = "ObjectiveC-Utilities";
+			sourceTree = "<group>";
+		};
+		48A7341A146FA4BC000F073C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A7341B146FA4BC000F073C /* ObjectiveC-Utilities-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48A73412146FA4BC000F073C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A7342A146FA65E000F073C /* NSObject+Reflection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48A73413146FA4BC000F073C /* ObjectiveC-Utilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A73421146FA4BC000F073C /* Build configuration list for PBXNativeTarget "ObjectiveC-Utilities" */;
+			buildPhases = (
+				48A73410146FA4BC000F073C /* Sources */,
+				48A73411146FA4BC000F073C /* Frameworks */,
+				48A73412146FA4BC000F073C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectiveC-Utilities";
+			productName = "ObjectiveC-Utilities";
+			productReference = 48A73414146FA4BC000F073C /* libObjectiveC-Utilities.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A7340B146FA4BC000F073C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Billennium Sp. z o.o.";
+			};
+			buildConfigurationList = 48A7340E146FA4BC000F073C /* Build configuration list for PBXProject "ObjectiveC-Utilities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48A73409146FA4BC000F073C;
+			productRefGroup = 48A73415146FA4BC000F073C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A73413146FA4BC000F073C /* ObjectiveC-Utilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A73410146FA4BC000F073C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A7342B146FA65E000F073C /* NSObject+Reflection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48A7341F146FA4BC000F073C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48A73420146FA4BC000F073C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A73422146FA4BC000F073C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveC_Utilities.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveC-Utilities/ObjectiveC-Utilities-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48A73423146FA4BC000F073C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveC_Utilities.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveC-Utilities/ObjectiveC-Utilities-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A7340E146FA4BC000F073C /* Build configuration list for PBXProject "ObjectiveC-Utilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A7341F146FA4BC000F073C /* Debug */,
+				48A73420146FA4BC000F073C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A73421146FA4BC000F073C /* Build configuration list for PBXNativeTarget "ObjectiveC-Utilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A73422146FA4BC000F073C /* Debug */,
+				48A73423146FA4BC000F073C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A7340B146FA4BC000F073C /* Project object */;
+}
