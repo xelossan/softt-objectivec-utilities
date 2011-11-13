@@ -2,7 +2,7 @@
 //  NSObject+Reflection.h
 //  ObjectiveC-Utilities
 //
-//  Created by Tomasz Telepko on 11-06-13.
+//  Created by Tomasz Telepko on 13.11.2011.
 //  Copyright 2011 softt.eu All rights reserved.
 //
 
